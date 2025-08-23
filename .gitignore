@@ -1,0 +1,13 @@
+# KiCad caches and temporary files
+*.bak
+*.tmp
+*.kicad_wks
+*.kicad_prl
+*.kicad_pcb-bak*
+*.kicad_sch-bak*
+fp-info-cache/
+PROJECT-OVERDRIVE-backups/
+
+# OS/Editor stuff
+*.swp
+*.DS_Store
