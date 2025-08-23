@@ -1404,6 +1404,142 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -8473,6 +8609,12 @@
 		(uuid "b5d2c710-f551-44d4-a526-87d95734ff57")
 	)
 	(junction
+		(at 302.26 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0526349f-3042-42fa-9ab9-ab768a14b060")
+	)
+	(junction
 		(at 55.88 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8519,6 +8661,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c49d990-fd8c-403d-99a2-5b1f4ce79f3a")
+	)
+	(junction
+		(at 297.18 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a96e11f-1961-4957-8dd0-03cc6153771a")
 	)
 	(junction
 		(at 50.8 57.15)
@@ -8573,6 +8721,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71e78d9a-5e77-44f3-8070-054c41838c1e")
+	)
+	(junction
+		(at 292.1 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7572faf3-870a-41a7-8519-d5766902b828")
 	)
 	(junction
 		(at 247.396 36.83)
@@ -8707,6 +8861,12 @@
 		(uuid "d17e68bf-a889-42c6-b2fe-4c4675b1611d")
 	)
 	(junction
+		(at 297.18 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d23c121a-2171-4806-926f-03212daf9998")
+	)
+	(junction
 		(at 73.66 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8787,16 +8947,6 @@
 			(type default)
 		)
 		(uuid "002d7823-b5ba-4f37-8fd9-1643fa0fa333")
-	)
-	(wire
-		(pts
-			(xy 290.83 38.1) (xy 304.8 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "003e5135-e0e5-4872-9b4f-34c338c1b043")
 	)
 	(wire
 		(pts
@@ -9179,6 +9329,16 @@
 	)
 	(wire
 		(pts
+			(xy 297.18 38.1) (xy 302.26 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "394e1d20-1989-4a1b-982b-298f9e03d55b")
+	)
+	(wire
+		(pts
 			(xy 102.87 34.29) (xy 105.41 34.29)
 		)
 		(stroke
@@ -9340,6 +9500,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 46.99) (xy 297.18 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59af5ea7-fc7d-4e0a-b685-b48ed01cff38")
+	)
+	(wire
+		(pts
 			(xy 78.74 264.16) (xy 78.74 261.62)
 		)
 		(stroke
@@ -9400,6 +9570,16 @@
 	)
 	(wire
 		(pts
+			(xy 297.18 46.99) (xy 302.26 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6678e95d-7bf9-4472-9a62-ccf0d7e78973")
+	)
+	(wire
+		(pts
 			(xy 146.05 101.6) (xy 166.37 101.6)
 		)
 		(stroke
@@ -9447,6 +9627,16 @@
 			(type default)
 		)
 		(uuid "6c019534-7b66-4122-a95d-e7801730f0f6")
+	)
+	(wire
+		(pts
+			(xy 302.26 38.1) (xy 304.8 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c732e9e-0e17-4217-9584-01ef6e370d3f")
 	)
 	(wire
 		(pts
@@ -9849,6 +10039,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 39.37) (xy 292.1 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0ee9e06-9df5-4340-9f67-0f55058772c4")
+	)
+	(wire
+		(pts
 			(xy 78.74 52.07) (xy 85.09 52.07)
 		)
 		(stroke
@@ -9889,7 +10089,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 38.1) (xy 283.21 38.1)
+			(xy 275.59 38.1) (xy 276.86 38.1)
 		)
 		(stroke
 			(width 0)
@@ -9937,6 +10137,16 @@
 			(type default)
 		)
 		(uuid "ab8dc402-e22f-4693-a738-d2f72a30ad31")
+	)
+	(wire
+		(pts
+			(xy 297.18 39.37) (xy 297.18 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab8e60c1-a08d-43db-838b-3cf92ca3a5da")
 	)
 	(wire
 		(pts
@@ -9999,6 +10209,16 @@
 			(type default)
 		)
 		(uuid "b85686a4-41bf-448d-8198-1e259f794fda")
+	)
+	(wire
+		(pts
+			(xy 292.1 38.1) (xy 297.18 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8a08598-e62f-4ebc-86bf-3a31cd8aae98")
 	)
 	(wire
 		(pts
@@ -10181,6 +10401,16 @@
 			(type default)
 		)
 		(uuid "d3093471-b2d8-4ab7-a761-9c3b83a69d93")
+	)
+	(wire
+		(pts
+			(xy 302.26 39.37) (xy 302.26 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d42a9ad9-6a35-4267-9c69-61ead4d66f1f")
 	)
 	(wire
 		(pts
@@ -10696,7 +10926,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 330.2 53.34 270)
+		(at 337.82 53.34 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10704,7 +10934,7 @@
 		(dnp no)
 		(uuid "00a3398c-daf7-48df-9951-fbb06fb8d294")
 		(property "Reference" "#PWR036"
-			(at 326.39 53.34 0)
+			(at 334.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10713,7 +10943,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 335.28 53.34 0)
+			(at 342.9 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10721,7 +10951,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 330.2 53.34 0)
+			(at 337.82 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10730,7 +10960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 330.2 53.34 0)
+			(at 337.82 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10739,7 +10969,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 330.2 53.34 0)
+			(at 337.82 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11142,7 +11372,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 280.67 38.1 0)
+		(at 275.59 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11151,7 +11381,7 @@
 		(fields_autoplaced yes)
 		(uuid "05ebefd2-ef6b-4104-8bab-36f802b184f5")
 		(property "Reference" "#PWR035"
-			(at 280.67 41.91 0)
+			(at 275.59 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11160,7 +11390,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 280.67 33.02 0)
+			(at 275.59 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11168,7 +11398,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 280.67 38.1 0)
+			(at 275.59 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11177,7 +11407,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 38.1 0)
+			(at 275.59 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11186,7 +11416,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 280.67 38.1 0)
+			(at 275.59 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12011,6 +12241,74 @@
 			(project "PROJECT-OVERDRIVE"
 				(path "/265f6b68-58df-43b8-965c-fef7b735041c"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 334.01 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22f88d09-576d-4324-ab22-6479b7b12b95")
+		(property "Reference" "F2"
+			(at 334.01 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100ma"
+			(at 334.01 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
+			(at 334.01 33.528 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 334.01 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 334.01 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1a4db1c4-19bd-4508-b736-53af62c11173")
+		)
+		(pin "1"
+			(uuid "443bab43-a2cb-4cc6-8894-284887261e47")
+		)
+		(instances
+			(project "PROJECT-OVERDRIVE"
+				(path "/265f6b68-58df-43b8-965c-fef7b735041c"
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -13329,6 +13627,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 302.26 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c21ea7c-b043-491c-8397-5751ff67eb18")
+		(property "Reference" "C35"
+			(at 298.45 45.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 298.196 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 303.2252 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 302.26 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 302.26 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aa6d36b3-aa36-4579-91ab-f2ee212bdbda")
+		)
+		(pin "1"
+			(uuid "f1fc335c-a177-4f65-9f52-37b37208510f")
+		)
+		(instances
+			(project "PROJECT-OVERDRIVE"
+				(path "/265f6b68-58df-43b8-965c-fef7b735041c"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:LM324")
 		(at 248.92 129.54 0)
 		(mirror y)
@@ -13434,7 +13801,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SS34")
-		(at 287.02 38.1 180)
+		(at 280.67 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13443,7 +13810,7 @@
 		(fields_autoplaced yes)
 		(uuid "4da34f5c-70f6-46cc-ac94-55aa14031964")
 		(property "Reference" "D1"
-			(at 287.3375 31.75 0)
+			(at 280.9875 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13451,7 +13818,7 @@
 			)
 		)
 		(property "Value" "SS34"
-			(at 287.3375 34.29 0)
+			(at 280.9875 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13459,7 +13826,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 287.02 33.655 0)
+			(at 280.67 33.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13468,7 +13835,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
-			(at 287.02 38.1 0)
+			(at 280.67 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13477,7 +13844,7 @@
 			)
 		)
 		(property "Description" "40V 3A Schottky Diode, SMA"
-			(at 287.02 38.1 0)
+			(at 280.67 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13668,6 +14035,75 @@
 			(project ""
 				(path "/265f6b68-58df-43b8-965c-fef7b735041c"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 292.1 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5318e444-9f90-4d7e-a58a-e812e49a0c9b")
+		(property "Reference" "C33"
+			(at 288.29 45.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 288.036 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 293.0652 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 292.1 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 292.1 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "285d72f5-c0cd-42d4-913b-5e3d104bb450")
+		)
+		(pin "1"
+			(uuid "00a1d8c9-62da-47f6-9fb0-6357c7736203")
+		)
+		(instances
+			(project "PROJECT-OVERDRIVE"
+				(path "/265f6b68-58df-43b8-965c-fef7b735041c"
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -14223,6 +14659,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at 334.01 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64cd3447-faa0-4089-94cd-44cb96e2395c")
+		(property "Reference" "F1"
+			(at 334.01 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "200ma"
+			(at 334.01 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
+			(at 334.01 55.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 334.01 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 334.01 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "350d3853-1c93-44f3-a54f-f93358016df0")
+		)
+		(pin "1"
+			(uuid "4df0cf8d-e14b-4e91-82d9-03233bc2b31c")
+		)
+		(instances
+			(project ""
+				(path "/265f6b68-58df-43b8-965c-fef7b735041c"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 105.41 34.29 0)
 		(unit 1)
@@ -14282,6 +14786,75 @@
 			(project ""
 				(path "/265f6b68-58df-43b8-965c-fef7b735041c"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 297.18 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68d7bc15-e35d-4342-8523-7aaebd011aff")
+		(property "Reference" "C34"
+			(at 293.37 45.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 293.116 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 298.1452 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 297.18 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 297.18 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6b67ac45-f2f4-42f9-8893-4be72ddb0717")
+		)
+		(pin "1"
+			(uuid "996e2727-fd50-4a56-b770-42d192d017be")
+		)
+		(instances
+			(project "PROJECT-OVERDRIVE"
+				(path "/265f6b68-58df-43b8-965c-fef7b735041c"
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -14821,6 +15394,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at 288.29 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ff6c621-ffbd-4865-9d2f-f7cd8f943f31")
+		(property "Reference" "F3"
+			(at 288.29 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "350ma"
+			(at 288.29 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
+			(at 288.29 39.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 288.29 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 288.29 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ab942343-7d86-4342-bea6-835665dcc6cf")
+		)
+		(pin "1"
+			(uuid "38da8608-89af-4fa1-893a-f042cbd1ea98")
+		)
+		(instances
+			(project "PROJECT-OVERDRIVE"
+				(path "/265f6b68-58df-43b8-965c-fef7b735041c"
+					(reference "F3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 83.82 161.29 90)
 		(unit 1)
@@ -14882,6 +15523,75 @@
 			(project "PROJECT-OVERDRIVE"
 				(path "/265f6b68-58df-43b8-965c-fef7b735041c"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 340.36 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74b8b826-4a65-490e-a01a-fcc7bcdac205")
+		(property "Reference" "C31"
+			(at 336.55 40.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 336.296 36.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 341.3252 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 340.36 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 340.36 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "19afb321-f19d-428e-bdcc-c6d321081581")
+		)
+		(pin "1"
+			(uuid "9231cd7d-6011-43a2-bce7-6fb9465c8382")
+		)
+		(instances
+			(project "PROJECT-OVERDRIVE"
+				(path "/265f6b68-58df-43b8-965c-fef7b735041c"
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -15154,6 +15864,75 @@
 			(project ""
 				(path "/265f6b68-58df-43b8-965c-fef7b735041c"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 335.28 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83899db9-f402-4151-889f-36884b454f8e")
+		(property "Reference" "C30"
+			(at 331.47 40.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 331.216 36.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 336.2452 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 335.28 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 335.28 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "24644b4f-6562-4b9e-ab11-2af0403c9ec6")
+		)
+		(pin "1"
+			(uuid "ff394455-a028-4648-9675-875bb79e9e81")
+		)
+		(instances
+			(project "PROJECT-OVERDRIVE"
+				(path "/265f6b68-58df-43b8-965c-fef7b735041c"
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -17737,7 +18516,7 @@
 	)
 	(symbol
 		(lib_id "power:VDDA")
-		(at 330.2 31.75 270)
+		(at 337.82 31.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17746,7 +18525,7 @@
 		(fields_autoplaced yes)
 		(uuid "e80f5800-96f2-462c-84a8-eaa8007409a7")
 		(property "Reference" "#PWR044"
-			(at 326.39 31.75 0)
+			(at 334.01 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17755,7 +18534,7 @@
 			)
 		)
 		(property "Value" "VDDA"
-			(at 334.01 31.7499 90)
+			(at 341.63 31.7499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17764,7 +18543,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 330.2 31.75 0)
+			(at 337.82 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17773,7 +18552,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 330.2 31.75 0)
+			(at 337.82 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17782,7 +18561,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDDA\""
-			(at 330.2 31.75 0)
+			(at 337.82 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17864,6 +18643,72 @@
 			(project ""
 				(path "/265f6b68-58df-43b8-965c-fef7b735041c"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 297.18 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebaa03a8-36e2-4559-9314-9d3a21890672")
+		(property "Reference" "#PWR045"
+			(at 297.18 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 297.18 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 297.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 297.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9490779a-d2c7-4b47-8ce1-48278df74ba2")
+		)
+		(instances
+			(project ""
+				(path "/265f6b68-58df-43b8-965c-fef7b735041c"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -18482,6 +19327,75 @@
 			(project "PROJECT-OVERDRIVE"
 				(path "/265f6b68-58df-43b8-965c-fef7b735041c"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 345.44 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc3549ff-827d-42d8-9ce5-f99f2d1395b8")
+		(property "Reference" "C32"
+			(at 341.63 40.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 341.376 36.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 346.4052 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 345.44 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 345.44 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "883f859e-4322-4b33-862b-3d2a2d3835f5")
+		)
+		(pin "1"
+			(uuid "e03a9649-ad31-4541-9155-b3d8c44b1d16")
+		)
+		(instances
+			(project "PROJECT-OVERDRIVE"
+				(path "/265f6b68-58df-43b8-965c-fef7b735041c"
+					(reference "C32")
 					(unit 1)
 				)
 			)
