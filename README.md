@@ -14,4 +14,5 @@ PROJECT-OVERDRIVE is a DIY HP headphone amplifier project featuring:
 
 ## License
 
-This project is open for personal learning and experimentation. For any distribution or commercial use, contact the author.
+This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**.  
+You are free to use, modify, and distribute this project, but **any distributed derivative must also be open source under the same license**.
