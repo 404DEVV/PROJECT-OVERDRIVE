@@ -9,8 +9,7 @@ PROJECT-OVERDRIVE is a DIY HP headphone amplifier project featuring:
 
 ## Status
 
-- Schematic design: in progress ✅  
-- PCB layout: in progress ✅  
+- Schematic   
 
 ## License
 
