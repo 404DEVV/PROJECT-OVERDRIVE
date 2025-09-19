@@ -10550,6 +10550,12 @@
 		(uuid "5b4c92b8-425b-41f9-9bb4-c09df810a10b")
 	)
 	(junction
+		(at 256.54 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c4814e4-e112-44a2-8ca8-69fe25b6f495")
+	)
+	(junction
 		(at 340.36 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10602,6 +10608,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77e62a9e-bc8a-4ad3-9fcf-b8285ce13d0b")
+	)
+	(junction
+		(at 259.08 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b2fa0c7-f313-4d9a-ba2b-b1dc08faeeab")
 	)
 	(junction
 		(at 142.24 30.48)
@@ -11157,7 +11169,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 101.6) (xy 259.08 132.08)
+			(xy 259.08 101.6) (xy 259.08 119.38)
 		)
 		(stroke
 			(width 0)
@@ -11478,6 +11490,16 @@
 			(type default)
 		)
 		(uuid "5099fce5-39ee-4e7b-a9ed-e69e26d71fa7")
+	)
+	(wire
+		(pts
+			(xy 264.16 119.38) (xy 259.08 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51627591-8059-4980-9d0c-08062590841e")
 	)
 	(wire
 		(pts
@@ -13025,6 +13047,17 @@
 			(type default)
 		)
 		(uuid "fc4aa6b7-61a0-4714-beb4-ff359b5d469f")
+	)
+	(wire
+		(pts
+			(xy 259.08 119.38) (xy 259.08 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 255 0 1)
+		)
+		(uuid "fddfa420-b4af-4fb5-95c5-ae1790e6c313")
 	)
 	(wire
 		(pts
@@ -15435,6 +15468,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 260.35 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26b1894f-b814-418b-a6c9-2a2f2e0fdc1d")
+		(property "Reference" "R18"
+			(at 261.62 128.778 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 260.35 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 260.35 125.222 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 260.35 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5e30a9bc-5b85-4f81-bcc8-205674439469")
+		)
+		(pin "1"
+			(uuid "9c29bd76-0d57-4653-85b2-852bbc977c4e")
+		)
+		(instances
+			(project "PROJECT-OVERDRIVE"
+				(path "/265f6b68-58df-43b8-965c-fef7b735041c"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 43.18 27.94 0)
 		(unit 1)
@@ -17622,6 +17723,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 267.97 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56208a94-e643-450c-9f2a-4689be13292b")
+		(property "Reference" "R19"
+			(at 267.97 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 267.97 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 267.97 121.158 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 267.97 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "14817850-b9e8-44f1-a3f9-ce0bf0803e58")
+		)
+		(pin "1"
+			(uuid "953acf06-4f8e-421d-adca-0bb48781f00f")
+		)
+		(instances
+			(project "PROJECT-OVERDRIVE"
+				(path "/265f6b68-58df-43b8-965c-fef7b735041c"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:AP2112K-3.3")
 		(at 322.58 55.88 0)
 		(unit 1)
@@ -17899,6 +18068,76 @@
 			(project ""
 				(path "/265f6b68-58df-43b8-965c-fef7b735041c"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 256.54 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c15e7e3-94fd-42e7-9f3f-6cb05c124500")
+		(property "Reference" "R17"
+			(at 259.08 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 259.08 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 254.762 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 256.54 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "84a0aa72-70df-4600-98b9-cf2e2d72d70a")
+		)
+		(pin "1"
+			(uuid "9d7df746-9728-4947-8c44-a05319578cbc")
+		)
+		(instances
+			(project "PROJECT-OVERDRIVE"
+				(path "/265f6b68-58df-43b8-965c-fef7b735041c"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -20298,6 +20537,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDDA")
+		(at 271.78 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94e319cc-e665-483f-b59c-4150e3eaf38d")
+		(property "Reference" "#PWR057"
+			(at 271.78 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 271.78 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 271.78 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fe308fe-3cec-4fbf-969f-0885ab7591a4")
+		)
+		(instances
+			(project "PROJECT-OVERDRIVE"
+				(path "/265f6b68-58df-43b8-965c-fef7b735041c"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDDF")
 		(at 165.1 109.22 270)
 		(unit 1)
@@ -21191,6 +21496,72 @@
 			(project "PROJECT-OVERDRIVE"
 				(path "/265f6b68-58df-43b8-965c-fef7b735041c"
 					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 264.16 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b14868bd-ff53-442c-bf1e-06443418654f")
+		(property "Reference" "#PWR056"
+			(at 270.51 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 266.954 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 264.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1268e9a-3a63-4100-b684-712ee651465a")
+		)
+		(instances
+			(project "PROJECT-OVERDRIVE"
+				(path "/265f6b68-58df-43b8-965c-fef7b735041c"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -23345,7 +23716,7 @@
 	)
 	(symbol
 		(lib_id "power:VDDA")
-		(at 256.54 127 0)
+		(at 256.54 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23354,7 +23725,7 @@
 		(fields_autoplaced yes)
 		(uuid "f112dba4-deba-452b-b591-c22df68b8002")
 		(property "Reference" "#PWR049"
-			(at 256.54 130.81 0)
+			(at 256.54 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23363,7 +23734,7 @@
 			)
 		)
 		(property "Value" "VDDA"
-			(at 256.54 121.92 0)
+			(at 256.54 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23371,7 +23742,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 127 0)
+			(at 256.54 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23380,7 +23751,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 127 0)
+			(at 256.54 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23389,7 +23760,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDDA\""
-			(at 256.54 127 0)
+			(at 256.54 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
