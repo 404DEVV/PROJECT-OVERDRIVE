@@ -10466,6 +10466,12 @@
 		(uuid "136ff94d-2cd3-4308-8dec-1bb26de432ce")
 	)
 	(junction
+		(at 259.08 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16aae098-07fe-4b7d-996c-578c5010a29f")
+	)
+	(junction
 		(at 248.92 52.324)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10608,12 +10614,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77e62a9e-bc8a-4ad3-9fcf-b8285ce13d0b")
-	)
-	(junction
-		(at 259.08 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b2fa0c7-f313-4d9a-ba2b-b1dc08faeeab")
 	)
 	(junction
 		(at 142.24 30.48)
@@ -11231,17 +11231,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 132.08) (xy 256.54 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 255 0 1)
-		)
-		(uuid "2bcb8691-a786-45d6-b754-0a158a9dace2")
-	)
-	(wire
-		(pts
 			(xy 60.96 193.04) (xy 68.58 193.04)
 		)
 		(stroke
@@ -11289,6 +11278,16 @@
 			(type default)
 		)
 		(uuid "2f1a6cf9-be49-49ca-8ca4-1b088254e612")
+	)
+	(wire
+		(pts
+			(xy 259.08 119.38) (xy 259.08 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f25a92e-68aa-4f8f-ae7c-7c45692cc4b9")
 	)
 	(wire
 		(pts
@@ -12636,6 +12635,17 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 132.08) (xy 256.54 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 255 0 1)
+		)
+		(uuid "cbf4a07a-3a0a-49b4-8408-7235fe70144b")
+	)
+	(wire
+		(pts
 			(xy 85.09 40.64) (xy 85.09 41.91)
 		)
 		(stroke
@@ -13047,17 +13057,6 @@
 			(type default)
 		)
 		(uuid "fc4aa6b7-61a0-4714-beb4-ff359b5d469f")
-	)
-	(wire
-		(pts
-			(xy 259.08 119.38) (xy 259.08 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 255 0 1)
-		)
-		(uuid "fddfa420-b4af-4fb5-95c5-ae1790e6c313")
 	)
 	(wire
 		(pts
@@ -15477,7 +15476,7 @@
 		(dnp no)
 		(uuid "26b1894f-b814-418b-a6c9-2a2f2e0fdc1d")
 		(property "Reference" "R18"
-			(at 261.62 128.778 90)
+			(at 265.176 125.222 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17740,7 +17739,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 267.97 115.57 90)
 			(effects
 				(font
@@ -23173,6 +23172,75 @@
 			(project "PROJECT-OVERDRIVE"
 				(path "/265f6b68-58df-43b8-965c-fef7b735041c"
 					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 259.08 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2c777b0-ce74-448e-90b2-08180c405d63")
+		(property "Reference" "R20"
+			(at 256.794 133.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 260.604 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 260.858 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 259.08 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6062b5fc-196f-4d92-9fab-664ad2fe5439")
+		)
+		(pin "1"
+			(uuid "c05f881e-09c7-406e-ab9c-190173666c4f")
+		)
+		(instances
+			(project "PROJECT-OVERDRIVE"
+				(path "/265f6b68-58df-43b8-965c-fef7b735041c"
+					(reference "R20")
 					(unit 1)
 				)
 			)
