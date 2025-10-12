@@ -13223,6 +13223,28 @@
 			)
 		)
 	)
+	(global_label "OLED_RST"
+		(shape input)
+		(at 85.09 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3831eae4-8fa0-4677-9e60-f0cc88e6180e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.9125 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VDAC_EN"
 		(shape input)
 		(at 355.6 22.86 180)
@@ -13245,7 +13267,7 @@
 			)
 		)
 	)
-	(global_label "I2C_SDA"
+	(global_label "EXP_I2C_SDA"
 		(shape input)
 		(at 85.09 138.43 180)
 		(fields_autoplaced yes)
@@ -13257,7 +13279,7 @@
 		)
 		(uuid "5b226697-e7dc-48ae-996e-6e831eaab904")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.4848 138.43 0)
+			(at 69.8887 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13355,7 +13377,7 @@
 			)
 		)
 	)
-	(global_label "I2C_SCL"
+	(global_label "EXP_I2C_SCL"
 		(shape input)
 		(at 140.97 201.93 180)
 		(fields_autoplaced yes)
@@ -13367,7 +13389,73 @@
 		)
 		(uuid "8bedb444-34ff-4f27-a230-ea1b91e15567")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.4253 201.93 0)
+			(at 125.8292 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OLED_CS"
+		(shape input)
+		(at 85.09 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "93fcfe25-e7e0-4c81-8a35-5698a02e0099")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.8801 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OLED_SCK"
+		(shape input)
+		(at 85.09 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "942e5c46-49ad-41fa-bb01-dd781c918747")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.6101 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OLED_SDA"
+		(shape input)
+		(at 85.09 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9eb0ab2a-2b30-4ff6-a2ff-8774a82121ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.7915 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13443,7 +13531,7 @@
 			)
 		)
 	)
-	(global_label "I2C_SCL"
+	(global_label "EXP_I2C_SCL"
 		(shape input)
 		(at 85.09 135.89 180)
 		(fields_autoplaced yes)
@@ -13455,7 +13543,7 @@
 		)
 		(uuid "b6ddc3ad-4d99-41d2-ad9c-521127717b5a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.5453 135.89 0)
+			(at 69.9492 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13575,7 +13663,29 @@
 			)
 		)
 	)
-	(global_label "I2C_SDA"
+	(global_label "OLED_DC"
+		(shape input)
+		(at 85.09 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d9b67f7f-fa79-409a-943e-e19e8f6fa71d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.8196 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EXP_I2C_SDA"
 		(shape input)
 		(at 140.97 204.47 180)
 		(fields_autoplaced yes)
@@ -13587,7 +13697,7 @@
 		)
 		(uuid "dfa3aac1-2304-4e47-8ed7-1f190e5b4445")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.3648 204.47 0)
+			(at 125.7687 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
